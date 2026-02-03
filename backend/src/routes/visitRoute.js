@@ -1,9 +1,10 @@
 import {Router} from "express";
-import { countVisit } from "../controllers/countVisit.js";
+import { countVisit,getCount } from "../controllers/countVisit.js";
 
 const visitRouter = Router();
 
 visitRouter.post('/visit',countVisit);
+visitRouter.get('/visit-count',getCount);
 
 export {
     visitRouter

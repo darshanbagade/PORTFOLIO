@@ -25,6 +25,24 @@ const countVisit = async (req,res)=>{
     }
 }
 
+const getCount = async (req,res)=>{
+    try {
+        const data = await VisitModel.findOne({name:"portfolio"})
+        res.status(200).json(
+            {
+                visits : data.visits
+            }
+        );
+    } catch (error) {
+        res.status(400).json({
+            msg : error.message
+        })
+    
+    }
+}
+
+
 export {
-    countVisit
+    countVisit,
+    getCount
 }
