@@ -1,0 +1,19 @@
+.footer {
+  display: flex;
+  justify-content: space-between;
+  padding: 20px 5%;
+  border-top: 1px solid #333;
+  color: #888;
+  font-size: 13px;
+  background-color: #0f172a;
+}
+
+.links {
+  display: flex;
+  gap: 15px;
+}
+
+.links a {
+  color: #00d2ff;
+  text-decoration: none;
+}

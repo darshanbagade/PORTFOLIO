@@ -1,0 +1,20 @@
+.nav-link{
+  display:flex;
+  gap:100px;
+  border:1px solid white;
+  padding:10px 20px;
+  border-radius: 50px;
+}
+.nav-link a{
+  text-decoration:none;
+  color:white;
+
+
+
+
+
+}
+.nav-link a:hover {
+  opacity: 0.7; /* Makes the text slightly fade when touched */
+  transition: 0.2s; /* Makes the fade smooth */
+}
