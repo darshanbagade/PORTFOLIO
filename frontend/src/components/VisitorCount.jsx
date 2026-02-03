@@ -54,15 +54,15 @@ const styles = {
     display: "flex",
     gap: "8px",
     alignItems: "center",
-    fontSize: "16px",
-    fontWeight: "500",
+    fontSize: "30px",
+    fontWeight: "700",
   },
   label: {
     color: "#555",
   },
   count: {
     color: "#0d6efd",
-    fontWeight: "700",
+    fontWeight: "1000",
   },
 };
 
