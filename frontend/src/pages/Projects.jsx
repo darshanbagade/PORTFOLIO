@@ -1,4 +1,5 @@
 import React from 'react'
+import evoImage from '../assets/evo.png'
 
 const Projects = () => {
   return (
@@ -34,7 +35,8 @@ const Projects = () => {
               background:"blue",
               overflow:"hidden"
             }} >
-              <img  src="src\assets\evo.png"
+              <img  src={evoImage}
+                alt="Project screenshot"
                 style={{ width: "100%", height: "100%", objectFit: "cover" }}
               /
               >
@@ -91,7 +93,8 @@ const Projects = () => {
               background:"blue",
               overflow:"hidden"
             }} >
-              <img  src="src\assets\evo.png"
+              <img  src={evoImage}
+                alt="Project screenshot"
                 style={{ width: "100%", height: "100%", objectFit: "cover" }}
               /
               >

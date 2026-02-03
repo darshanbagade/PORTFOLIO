@@ -1,6 +1,7 @@
 import React from 'react'
 import "../styles/Home.css"
 import VisitorCount from '../components/VisitorCount'
+import meImage from '../assets/me.jpg'
 const Home = () => {
   return (
     <>
@@ -11,7 +12,8 @@ const Home = () => {
         {/* //centering by justify-content center wont align image at center */}
         <div className="image">
         <img
-        src="src/assets/me.jpg"
+        src={meImage}
+        alt="Devid Deshmukh"
         style={{height:"400px",
         width:"400px",
         border:"2px solid black",
