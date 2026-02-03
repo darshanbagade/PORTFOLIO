@@ -56,12 +56,15 @@ const styles = {
     alignItems: "center",
     fontSize: "30px",
     fontWeight: "700",
+    border: "2px solid white",
+    borderRadius: "6px",
+    padding: "8px"
   },
   label: {
-    color: "#555",
+    color: "#d6d6d6",
   },
   count: {
-    color: "#0d6efd",
+    color: "#15ff00",
     fontWeight: "1000",
   },
 };

@@ -9,7 +9,7 @@
 .img-parent{
   padding: 50px;
   display: flex;
-  background: pink;
+  background: transparent;
   max-width: 1400px;
   width: 100%;
   height: 100vh;
@@ -17,10 +17,12 @@
   margin: 0 auto;
   align-items: center;
   justify-content: center;
+  color: white;
 }
 
 .text{
   display: flex;
   flex-direction: column;
   justify-content: center;
+  color: white;
 }

@@ -9,9 +9,10 @@ const Projects = () => {
         alignItems:"center",
         gap:"50px",
         height:"100vh",
-        background:"cyan"
-    }}>
-      <div>Projects</div>
+        marginTop:"190px"
+        // background:"linear-gradient(135deg, #1a1a1a 0%, #00a083 100%)"
+    }}> 
+      <div style={{color:"white", fontSize:"28px", paddingTop:"20px"}}><u>Projects</u></div>
       <div className="cards" style={{
         display:"grid",
         gridTemplateColumns:"repeat(2, 1fr)",
@@ -24,7 +25,7 @@ const Projects = () => {
         style={{
           height:"400px",
           width:"450px",
-          border:"2px solid",
+          border:"2px solid white",
           display:"flex",
           flexDirection:"column"
 
@@ -43,19 +44,23 @@ const Projects = () => {
             </div>
              <div className="title" style={{
               height:"15%",
-              borderBottom:"2px solid"
+              borderBottom:"2px solid white",
+              color:"white",
+              padding:"8px",
+              textAlign:'center'
              }}>
               <p>A genome analysis platform</p>
             </div>
             <div className="techstack" style={{
 
               flex:1,
-              borderBottom:"2px solid",
+              borderBottom:"2px solid white",
               display: "flex",
              alignItems: "center",
             justifyContent: "center",
             gap:"10px",
-            padding:"0 10px"
+            padding:"0 10px",
+            color:"white"
              }}>
               <p>React</p>
               <p>Python</p>
@@ -73,7 +78,7 @@ const Projects = () => {
               }
             }>
               <a href>Github</a>
-              <a href>Codeware</a>
+              <a href>Website Link</a>
 
             </div>
 
@@ -82,7 +87,7 @@ const Projects = () => {
         style={{
           height:"400px",
           width:"450px",
-          border:"2px solid",
+          border:"2px solid white",
           display:"flex",
           flexDirection:"column"
 
@@ -101,19 +106,23 @@ const Projects = () => {
             </div>
              <div className="title" style={{
               height:"15%",
-              borderBottom:"2px solid"
+              borderBottom:"2px solid white",
+               padding:"8px",
+              textAlign:'center',
+              color:'white'
              }}>
               <p>A genome analysis platform</p>
             </div>
             <div className="techstack" style={{
 
               flex:1,
-              borderBottom:"2px solid",
+              borderBottom:"2px solid white",
               display: "flex",
              alignItems: "center",
             justifyContent: "center",
             gap:"10px",
-            padding:"0 10px"
+            padding:"0 10px",
+            color:'white'
              }}>
               <p>React</p>
               <p>Python</p>
@@ -131,7 +140,7 @@ const Projects = () => {
               }
             }>
               <a href>Github</a>
-              <a href>Codeware</a>
+              <a href>Website Link</a>
 
             </div>
 

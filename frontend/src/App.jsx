@@ -3,6 +3,7 @@ import Navbar from './components/Navbar'
 import Home from './pages/Home'
 import Skills from './pages/Skills'
 import Projects from './pages/Projects'
+import Achievments from './pages/Achievments'
 import Contact from './pages/Contact'
 import Footer from './components/Footer'
 const App = () => {
@@ -10,8 +11,9 @@ const App = () => {
     <>
     <Navbar/>
     <Home/>
-    {/* <Skills/> */}
+    <Skills/>
     <Projects/>
+    <Achievments/>
     <Contact/>
     <Footer/>
     </>
